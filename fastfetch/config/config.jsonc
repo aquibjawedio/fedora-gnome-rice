@@ -1,0 +1,146 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/logo.txt",
+    "padding": {
+      "right": 2
+    }
+  },
+
+  "modules": [
+    // ───────── Hardware Module ─────────
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+    },
+    {
+      "type": "host",
+      "key": " PC",
+      "keyColor": "36"
+    },
+    {
+      "type": "cpu",
+      "key": " CPU",
+      "showPeCoreCount": true,
+      "keyColor": "36"
+    },
+    {
+      "type": "gpu",
+      "key": " GPU",
+      "keyColor": "36"
+    },
+    {
+      "type": "memory",
+      "key": " RAM",
+      "keyColor": "36"
+    },
+    {
+      "type": "disk",
+      "key": "󰋊 Disk",
+      "keyColor": "36"
+    },
+    {
+      "type": "battery",
+      "key": " Batt",
+      "keyColor": "36"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+
+    "break",
+
+    // ───────── Software ─────────
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": " OS",
+      "keyColor": "94"
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel",
+      "keyColor": "94"
+    },
+    {
+      "type": "packages",
+      "key": "󰏖 Pkgs",
+      "keyColor": "94"
+    },
+    {
+      "type": "shell",
+      "key": " Shell",
+      "keyColor": "94"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+
+    "break",
+
+    // ───────── Session ─────────
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌──────────────────────Session───────────────────────┐"
+    },
+    {
+      "type": "de",
+      "key": "󰍹 DE",
+      "keyColor": "95"
+    },
+    {
+      "type": "wm",
+      "key": "󱄄 WM",
+      "keyColor": "95"
+    },
+    {
+      "type": "wmtheme",
+      "key": "󰉼 Theme",
+      "keyColor": "95"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+
+    "break",
+
+    // ───────── Time Module ─────────
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌────────────────────────Time────────────────────────┐"
+    },
+    {
+      "type": "command",
+      "key": "OS Age",
+      "keyColor": "35",
+      "text": "echo \"$(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days\""
+    },
+    {
+      "type": "uptime",
+      "key": "Uptime",
+      "keyColor": "35"
+    },
+    {
+      "type": "datetime",
+      "key": "Now",
+      "keyColor": "35"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+
+    "break",
+    {
+      "type": "colors"
+    }
+  ]
+}
