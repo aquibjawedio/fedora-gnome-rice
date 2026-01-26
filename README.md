@@ -1,34 +1,32 @@
 # Fedora GNOME Rice Guide
 
-## 1. Fastfetch Setup
+## *Look of the desktop*
 
-### Generate the Fastfetch Configuration
+![Screenhost 1](./screenshots/Screenshot-1.png)
+![Screenhost 2](./screenshots/Screenshot-2.png)
+![Screenhost 3](./screenshots/Screenshot-3.png)
 
-Run the following command to generate the default configuration file:
 
-```bash
-fastfetch --gen-config
-```
+## Configuration Status
 
-This command creates a default Fastfetch configuration file called `config.jsonc`.
+### ✅ Done
 
-On Fedora, the file is usually located at:
+- **Fastfetch** configuration completed
+- **Icon Theme** configured  
+  - WhiteSur Icon Theme  
+  - Alternative icons (`-a`)
+- **GNOME Shell Theme** configured  
+  - Marble Shell Theme  
+  - Filled – Blue variant
 
-```text
-~/.config/fastfetch/config.jsonc
-```
+---
 
-### Apply the configuration
+### ❌ Not Done
 
-1. Open the `config.jsonc` file (*`nano`, `nvim`, etc.*).
-2. Copy **my Fastfetch config**.
-3. Paste it into `config.jsonc`, replacing the existing content.
-4. Save the file.
-5. Download the `logo.txt` file and place it in the `fastfetch` folder where `config.jsonc` is located.
-6. Your Fastfetch customization is complete. Now run:
+- **GNOME Extensions**
+- **Extensions configuration**
 
-```bash
-fastfetch
-```
+---
+
 
 *Other customization will be updated soon*
