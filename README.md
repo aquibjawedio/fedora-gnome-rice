@@ -7,26 +7,33 @@
 ![Screenhost 3](./screenshots/Screenshot-3.png)
 
 
-## Configuration Status
+# GNOME Customization Setup
 
-### ✅ Done
-
-- **Fastfetch** configuration completed
-- **Icon Theme** configured  
-  - WhiteSur Icon Theme  
-  - Alternative icons (`-a`)
-- **GNOME Shell Theme** configured  
-  - Marble Shell Theme  
-  - Filled – Blue variant
+A clean and modern GNOME desktop configuration with a focus on aesthetics and consistency.
 
 ---
 
-### ❌ Not Done
+## Configuration
 
-- **GNOME Extensions**
-- **Extensions configuration**
+### System Info
+- **Fastfetch**  
+- Fully configured and working as expected
+
+### Icon Theme
+- **WhiteSur Icon Theme**
+- Alternative icons enabled (`-a`)
+
+### GNOME Shell Theme
+- **Marble Shell Theme**
+- **Filled – Blue** variant applied
+
+### GNOME Extensions
+- Required GNOME extensions installed
+- All extensions properly configured and enabled
 
 ---
 
 
-*Other customization will be updated soon*
+**✔ All configurations completed successfully.**
+
+Enjoy your customized GNOME desktop!
